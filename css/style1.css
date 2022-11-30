@@ -1,1 +1,126 @@
 
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			background-color: white;
+		}
+		h1 {
+			margin-bottom: 15px;
+			text-align: center;
+			font-size: 50px
+		}
+		
+		section {position: relative;
+			     padding: 15px;
+			     width: 90%;
+		}
+
+		div{position: relative;
+			background-color: grey;
+			border:3.5px solid black;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+}		
+		
+		
+	p { 
+		position: relative;
+		clear: right;
+	}
+
+	
+
+		section {
+			position: relative;
+			width: 90%;
+			padding: 15px;
+		}
+
+    .sub1 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: auto;
+        border: 3px solid black;
+        text-align: center;
+        font-size: 100%;
+        font-weight: bold;
+        background-color: #FFB6C1;
+
+    }
+
+    .sub2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: auto;
+        border: 3px solid black;
+        text-align: center;
+        font-size: 100%;
+        font-weight: bold;
+        background-color: #FF0000;
+
+    }
+
+    .sub3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: auto;
+        border: 3px solid black;
+        text-align: center;
+        font-size: 100%;
+        font-weight: bold;
+        background-color: rgb(223, 212, 121);
+
+    }
+
+    .content {
+        padding: 5px;
+        border: none;
+        background-color: grey;
+        font-family: Helvetica;
+        color: black;
+        margin: 3px ;
+        height: 150px;
+        overflow: auto;
+    }
+
+		.row {
+			width: 100%
+		}
+
+
+
+
+		@media(min-width: 992px) {
+			.col-lg-4 {
+			float: left;
+	       width: 33%;
+	   } 
+	 }
+
+
+		@media(min-width: 768px) and (max-width: 991px){
+			
+			.col-md-6 {
+				float: left;
+				width: 50%; 
+			}
+			 .col-md-12{
+			 	float: left;
+                width: 100%;
+			 }
+			}
+
+		@media(max-width: 767px) {
+			 .col-sm-12{
+float: left;
+width: 100%;
+}
+}
+
